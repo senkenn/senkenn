@@ -9,7 +9,7 @@ on:
     - cron: "0 3 * * *"
   push:
     branches: [main, master]
-    paths: [".github/workflows/dark.yml"]
+    paths: [".github/workflows/stats.yml"]
   workflow_dispatch:
 
 jobs:
